@@ -1,0 +1,130 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "217247D2-0629-4F03-9CE2-20515C2B160C",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Episode Select",
+  "zoom": 1
+}
+
+
+:: 1 week later {"position":"800,700","size":"100,100"}
+
+
+
+[[Wake up]]
+
+
+:: Bluff your way out {"position":"1200,400","size":"100,100"}
+"It's... stylistic! I use extensions, and dye it. Helps with the 'wise old hermit' vibe."
+
+"Okayyyy..." she drawls, still hesitant to buy it.
+
+"Look, just check my file. I'm sure it'll have the same info, with the same picture."
+
+"Okay, hold on... Oh shit, you're right! Sorry I doubted you, you just REALLY looked like a 200 year old warlock"
+
+''//"Well, she got half of it right,"//''Abeloth quipps in your head.
+
+[[Find your desk]]
+
+
+:: Cast Suggestion {"position":"1100,300","size":"100,100"}
+"(text-colour:#8f45d9)[You SHALL let me past!]", you holler, magical power making your voice warble.
+
+"Oh dear, my mistake, everything seems to be in order! Have a good day, Mr. Shitto."
+
+[[Find your desk]]
+
+
+:: Episode Select {"position":"800,300","size":"100,100"}
+[[Prologue]] 
+(if:(history:)contains"Prologue")[
+[[Karaoke Night]]
+[[Fey Inquisition]]
+]
+
+
+:: Fey Inquisition {"position":"800,100","size":"100,100"}
+"What the hell?! W
+
+
+:: Find your desk {"position":"1000,400","size":"100,100"}
+You take the elevator to the 7th floor, and start walking to the right.,
+
+''"Wrong way. 12 desks left, 3 forward."''
+
+You abruptly about-face, and go where Abeloth told you to go. "//Man, good thing at least ONE of us knows where we're going//", you think, once more appreciating your nigh-omniscient companion. On your way, you pass a... bodybuilder? No, she's not quite THAT buff, but she certainly looks the part. At least, until you look a little closer, seeing a nice blazer and tie, with shoulder pads and muscles that make her look like a retired knight. She's currently furiously headbanging to something in her headphones, and doesn't even deem to clock your presence. At least, not until she rams into you, and spills her coffee all over your chest.
+
+"Oh, I'm so sorry sir! Man, you'd think I'd learn to look in front of me after all these years! Here, let me clean you up!"
+
+"Nah, no need. "(text-colour:#8f45d9)[Expurgate maculam!]" The stain is quickly pulled from the fabric, and back into the cup. "Here you go. I well know how much one needs it in the morning. What's your name, anyway?"
+
+"Oh, uh, Penelope Jackson, sir! I'm a 3D artist here. What about you?"
+
+"Glup Shitto, the new programmer. Nice to meet you."
+
+You each head to your seats, only to discover you sit right next to each other! As you settle in for your first day of work, you hope to learn more about this "Penelope"
+
+[[''PROLOGUE END''|Episode Select]] 
+
+
+:: First Day {"position":"1200,200","size":"100,100"}
+As you walk in the front door, you're greeted by the receptionist, Linda.
+
+"And who might you be, sir?"
+
+"Glup Shitto, the new programmer," you reply, handing over your ID.
+
+"I'm sorry, sir, but I'm gonn have to ask you to leave. This ID is clearly that of a 37 year old man."
+
+"That's me! I'm 37!"
+
+"Really," she says, clearly not believing you. "Then why the hell is your beard so gray? Not to mention being the size of a tie."
+
+"Uhhhhh..."
+
+[[Bluff your way out]]
+[[Cast Suggestion]]
+
+
+:: Karaoke Night {"position":"800,500","size":"100,100"}
+"Whoo! I thought this day might NEVER come, but we did it! Launch day!"
+
+The office erupts into cheers, as dozens celebrate the luxury of once more getting a full night's sleep. But not you. 
+
+''"Glup, wake up! You can sleep wen we get you back to your bed!"''Abeloth yells, but it's no use. Even with her taking over 90% of your bodily function, 2 straight weeks of feverish work has left you utterly drained. Abeloth sighs, and decides to put the broad strokes of what they're saying in your long term memory, while letting you sleep.
+
+[[Sleep|1 week later]]
+
+
+:: Prologue {"position":"1000,200","size":"100,100"}
+''"Glup, are you //sure// this is what you want to do with your life?"''
+
+"Ugh, for the LAST time, Abeloth, yes! Unlike you, humans generally aren't accustomed to living in hollowed out trees, eating wild animals and rock slime!"
+
+''"I understand that, but a desk job? Is that REALLY where your ambitions end? With your power, you could rule the world! Fight crime in a fancy costume! Make a fortune so comically large it would generate its own gravity well!"''
+
+"Sure, I COULD, but why would I want to? I started worshipping you to understand the deepest mysteries of the universe, not to roleplay as a god-emperor for a couple decades before I get overthrown or die of old age. Programming is just the most convenient way to pursue my actual goals, while astill being a part of human society."
+
+''...All right. If that's what makes you happy. But remember, mortal! If you ever yearn for infinite magical power, our contract binds me to assist!''
+
+"Forget the contract! I've told you before: We're no longer 'archfey and contractor'. We're //friends//."
+
+''Okay then, //friend//, now are you gonna keep dawdling, or are you gonna get to work?''
+
+[[Go to work|First Day]]
+
+
+:: Wake up {"position":"800,900","size":"100,100"}
+"Hey, Glup? You in there?" Penelope asks, slowly opening your door.
+
+"Huh? Who's there?! (text-colour:#8f45d9)[I CAST FIREBALL]- oh, it's you." You groggily look around your... bedroom? "How the hell did I get here? Didn't I fall asleep in my chair?"
+
+"You're //welcome//!" Penelope exclaims. "Wasn't easy carrying you here all the way from the tower! Not to mention the weird looks I got on the subway," she continues, wincing at the last bit.
+
+
