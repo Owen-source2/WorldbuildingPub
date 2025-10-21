@@ -1,0 +1,223 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "217247D2-0629-4F03-9CE2-20515C2B160C",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Episode Select",
+  "zoom": 1
+}
+
+
+:: 1 week later {"position":"800,700","size":"100,100"}
+[[Wake up]]
+
+
+:: Bluff your way out {"position":"1400,500","size":"100,100"}
+"It's... stylistic! I use extensions, and dye it. Helps with the 'wise old hermit' vibe."
+
+"Okayyyy..." she drawls, still hesitant to buy it.
+
+"Look, just check my file. I'm sure it'll have the same info, with the same picture."
+
+"Okay, hold on... Oh shit, you're right! Sorry I doubted you, you just REALLY looked like a 200 year old warlock"
+
+''//"Well, she got half of it right,"//''Abeloth quipps in your head.
+
+[[Find your desk]]
+
+
+:: Cast Suggestion {"position":"1300,400","size":"100,100"}
+"(text-colour:#8f45d9)[You SHALL let me past!]", you holler, magical power making your voice warble.
+
+"Oh dear, my mistake, everything seems to be in order! Have a good day, Mr. Shitto."
+
+[[Find your desk]]
+
+
+:: Episode Select {"position":"800,300","size":"100,100"}
+[[Prologue]] 
+(if:(history:)contains"Prologue")[
+[[Karaoke Night]]
+[[Fey Inquisition]]
+]
+
+
+:: Fey Inquisition {"position":"800,100","size":"100,100"}
+"What the hell?! W
+
+
+:: Find Desk II {"position":"1000,400","size":"100,100"}
+"(text-colour:#8f45d9)[Expurgate maculam!]" The stain is quickly pulled from the fabric, and back into the cup. "Here you go. I well know how much one needs it in the morning. What's your name, anyway?"
+
+"Oh, uh, Penelope Jackson, sir! I'm a 3D artist here. What about you?"
+
+"Glup Shitto, the new programmer. Nice to meet you."
+
+You each head to your seats, only to discover you sit right next to each other! As you settle in for your first day of work, you hope to learn more about this "Penelope"
+
+[[''PROLOGUE END''|Episode Select]]
+
+
+:: Find your desk {"position":"1100,500","size":"100,100"}
+You take the elevator to the 7th floor, and start walking to the right.,
+
+''"Wrong way. 12 desks left, 3 forward."''
+
+You abruptly about-face, and go where Abeloth told you to go. "//Man, good thing at least ONE of us knows where we're going//", you think, once more appreciating your nigh-omniscient companion. On your way, you pass a... bodybuilder? No, she's not quite THAT buff, but she certainly looks the part. At least, until you look a little closer, seeing a nice blazer and tie, with shoulder pads and muscles that make her look like a retired knight. She's currently furiously headbanging to something in her headphones, and doesn't even deem to clock your presence. At least, not until she rams into you, and spills her coffee all over your chest.
+
+"Oh, I'm so sorry sir! Man, you'd think I'd learn to look in front of me after all these years! Here, let me clean you up!"
+
+[["Nah, no need. "|Find Desk II]]
+
+
+:: First Day {"position":"1400,200","size":"100,100"}
+As you walk in the front door, you're greeted by the receptionist, Linda.
+
+"And who might you be, sir?"
+
+"Glup Shitto, the new programmer," you reply, handing over your ID.
+
+"I'm sorry, sir, but I'm gonn have to ask you to leave. This ID is clearly that of a 37 year old man."
+
+"That's me! I'm 37!"
+
+"Really," she says, clearly not believing you. "Then why the hell is your beard so gray? Not to mention being the size of a tie."
+
+"Uhhhhh..."
+
+[[Bluff your way out]]
+[[Cast Suggestion]]
+
+
+:: I love your singing! {"position":"700,1800","size":"100,100"}
+"Oh, it doesn't bother me at all! I like when you get intense. Don't get to see that a lot at work. In fact, if you think YOUR singing might be 'too much', you haven't seen anything yet!"
+
+"Is that so?" Penelope lightly chuckles. "Well, I'd love to see you try to top me!"
+
+''"Ooooohhhh, singing, huh? Trying to impress her with your pipes, are we? Don't worry, I'll lend you a hand! Or, well a mouth."''
+
+"//Geez, would you cut it out already? Not EVERYTHING is an attempt at courtship!//"
+
+''"Well, maybe it should be! You'll never woo her with that attitude!"''
+
+"//I'M NOT TRYING TO- Ugh, forget it.// Oh, really? Consider it a challenge, Penelope!"
+
+''"A 'challenge'? HAH! Hardly!She won't stand a chance with my help!"''
+
+[[Game on!|Karaoke Challenge]]
+
+
+:: Karaoke Accept {"position":"700,1200","size":"100,100"}
+"Great! It's at Dexter's bar at 8. See you then!" Penelope says, walking out the door.
+
+''"Huh, never took you for a party animal. What made you decide to go?"''
+
+"I'm... not really sure. Just something about her."
+
+(click:)[
+''Oh, really? You're "not sure what it is? Well, I've got an idea, if you know what I mean~''
+
+"Oh, shove it. It's not like that and you know it."
+
+''"Heh, if you say so." //We'll see about that. No WAY am I letting him fumble this!//'', Abeloth thinks.
+
+[[Wait for the party|Karaoke Accept II]] 
+]
+
+
+:: Karaoke Accept II {"position":"700,1400","size":"100,100"}
+The time comes, and you go to the bar. You walk in to see, and hear, Penelope belting out some power metal at the top of her lungs. Many people in the bar are plugging their ears due to her sheer volume, but everyone in your group is loving it.
+
+[[Next|Party Start]]
+
+
+:: Karaoke Challenge {"position":"700,2000","size":"100,100"}
+
+
+
+:: Karaoke Night {"position":"800,500","size":"100,100"}
+"Whoo! I thought this day might NEVER come, but we did it! Launch day!"
+
+The office erupts into cheers, as dozens celebrate the luxury of once more getting a full night's sleep. But not you. 
+
+''"Glup, wake up! You can sleep wen we get you back to your bed!"''Abeloth yells, but it's no use. Even with her taking over 90% of your bodily function, 2 straight weeks of feverish work has left you utterly drained. Abeloth sighs, and decides to put the broad strokes of what they're saying in your long term memory, while letting you sleep.
+
+[[Sleep|1 week later]]
+
+
+:: Karaoke Reject {"position":"900,1200","size":"100,100"}
+
+
+
+:: Party Start {"position":"700,1600","size":"100,100"}
+Penelope finishes her song, and goes to get a drink, only to nearly bump headfirst into you.
+
+"Oh! Glup! Sorry, almost didn't see you there. How... how long have you been here?"
+
+"A few minutes. Seems like you were too absorbed to notice me."
+
+"Yeah, I can get a bit intense when I'm singing." Penelope says, seeming embarrased. "Sorry if it bothers you. I just... don't get to cut loose very often, you know? Singing is a good way to get my feelings out."
+
+[[I love your singing!]]
+[[Yeah, it's kind of annoying...]]
+
+
+:: Prologue {"position":"1000,200","size":"100,100"}
+''"Glup, are you //sure// this is what you want to do with your life?"''
+
+"Ugh, for the LAST time, Abeloth, yes! Unlike you, humans generally aren't accustomed to living in hollowed out trees, eating wild animals and rock slime!"
+
+''"I understand that, but a desk job? Is that REALLY where your ambitions end? With your power, you could rule the world! Fight crime in a fancy costume! Make a fortune so comically large it would generate its own gravity well!"''
+
+"Sure, I COULD, but why would I want to? I started worshipping you to understand the deepest mysteries of the universe, not to roleplay as a god-emperor for a couple decades before I get overthrown or die of old age. Programming is just the most convenient way to pursue my actual goals, while astill being a part of human society."
+
+[[Next|Prologue II]]
+
+
+:: Prologue II {"position":"1200,200","size":"100,100"}
+''...All right. If that's what makes you happy. But remember, mortal! If you ever yearn for infinite magical power, our contract binds me to assist!''
+
+"Forget the contract! I've told you before: We're no longer 'archfey and contractor'. We're //friends//."
+
+''Okay then, //friend//, now are you gonna keep dawdling, or are you gonna get to work?''
+
+[[Go to work|First Day]]
+
+
+:: Wake Up II {"position":"800,1100","size":"100,100"}
+"Okay, that makes sense, but how did you know where to bring me? Last I checked, no one at work knew where I live."
+
+"Uh, because you told me? Guess you were too tired to remember."
+
+''"You're //welcome//"'', Abeloth sarcastically quips.
+
+//"Well, //that// explains a lot"//, you think.
+
+"Anyway, I just wanted to tell you that we're celebrating the launch with a karaoke night! You wanna come?"
+
+[[Yes|Karaoke Accept]]
+[[No|Karaoke Reject]]
+
+
+:: Wake up {"position":"800,900","size":"100,100"}
+"Hey, Glup? You in there?" Penelope asks, slowly opening your door.
+
+"Huh? Who's there?! (text-colour:#8f45d9)[I CAST FIREBALL]- oh, it's you." You groggily look around your... bedroom? "How the hell did I get here? Didn't I fall asleep in my chair?"
+
+"You're //welcome//!" Penelope exclaims. "Wasn't easy carrying you here all the way from the tower! Not to mention the weird looks I got on the subway," she continues, wincing at the last bit.
+
+[[Continue|Wake Up II]]
+
+
+:: Yeah, it's kind of annoying... {"position":"500,1800","size":"100,100"}
+"Yeah, it does bother me. I know it's kina what we're here for, but could you keep it down a little?"
+
+"Oh... okay." Penelope says sadly.
+
+''"NO! What are you doing, you're blowing it!"''
+
+
