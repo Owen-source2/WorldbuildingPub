@@ -30,6 +30,30 @@ At first, your performance is strong, but nothing special. Then, the choir comes
 [[20 minutes later...|Classical End]]
 
 
+:: Abeloth Ignore {"position":"1800,1700","size":"100,100"}
+"//What? You //jealous?"
+
+''"Oh, THAT'S IT! You've done it now, pathetic mortal!"''
+
+Some deep, primal part of your being begins to resonate, like an alarm bell informing you that //you fucked up//. Currents of magical energy, undetectable to most mortal eyes, swirl together into a vicious maelstrom. Then, as soon as it started, settling into a horrifying silence. You look around, desperately trying to figure out what changed. Then, you look down. Your beautiful, luscious turkey club sandwiches have been turned into BLTs.
+
+[[Oh, the humanity!|Cursed]]
+
+
+:: Abeloth Placate {"position":"1400,1700","size":"100,100"}
+"//All right, cool your jets. Look, when we get home, I'll apologize with an offering. Sound good?//"
+
+''"...Tendies? Oh, with fries and a Coke?!"''
+
+"//Sure, why not.//"
+
+''"All right, all is forgiven. You can get back to your date now."''
+
+"//It's not a- whatever.//"
+
+[[Back to your definitely-not-a-date|Hangout IV]]
+
+
 :: Abeloth Shipping {"position":"1200,1500","size":"100,100"}
 ''"Oh, what's this?  A beautiful woman, wanting to hang out in your apartment? What, you want to //enchant her?// Damn, I knew we should have built you that damn tower! Where are we gonna put her?! Oh, the woes of a man in loooooveeeee."''
 
@@ -48,7 +72,7 @@ At first, your performance is strong, but nothing special. Then, the choir comes
 [[Hangout]]
 
 
-:: Ask her out {"position":"900,1800","size":"100,100"}
+:: Ask her out {"position":"1000,1800","size":"100,100"}
 "...Hey, Penelope? would you like to, I don't know... get dinner together sometime?"
 
 "Oh? Sure, why not?"
@@ -69,7 +93,7 @@ Penelope violently blushes. "OH! Uh, I-I mean, uh, sure? I mean, yes! Yes, I'd, 
 
 You exchange numbers, and go home, warmth blossoming in your chest.
 
-[[Episode Select]] 
+[[Finish]]
 
 
 :: Bluff your way out {"position":"1400,1000","size":"100,100"}
@@ -112,16 +136,25 @@ That one gives you some pause, but it quickly becomes clear he was joking. You s
 [[Outside]]
 
 
+:: Cursed {"position":"2000,1700","size":"100,100"}
+You are overtaken by sorrow. You excuse yourself to the bathroom to grieve, only to see the pipes break as you enter the room. You use magic to fix them, but then it bursts in a slightly different spot. "//Well played, you petty bitch.//", you think to yourself.
+
+"Hey, Penelope? I, uh, I gotta go. See you later, okay!" you hurriedly blurt out, running out the door.
+
+"//Alright, Abeloth, you've made your point. I'll be at the altar in 5 minutes, so just... don't do TOO much damage, okay? I'll throw in an extra lamb if no one gets hurt.//"
+
+''"Fine. But make it a DAMN good lamb, okay?!"''
+
+"//The very best.//"
+
+[[End|Profaned Ending]]
+
+
 :: Episode Select {"position":"800,800","size":"100,100"}
 [[Prologue]] 
 (if:(history:)contains"Prologue")[
 [[Karaoke Night]]
-[[Fey Inquisition]]
 ]
-
-
-:: Fey Inquisition {"position":"800,600","size":"100,100"}
-"What the hell?! W
 
 
 :: Find Desk II {"position":"1000,900","size":"100,100"}
@@ -148,6 +181,10 @@ You abruptly about-face, and go where Abeloth told you to go. "//Man, good thing
 [["Nah, no need. "|Find Desk II]]
 
 
+:: Finish {"position":"1200,2000","size":"100,100"}
+(bg:red)[Date Ending]
+
+
 :: First Day {"position":"1400,700","size":"100,100"}
 As you walk in the front door, you're greeted by the receptionist, Linda.
 
@@ -167,12 +204,76 @@ As you walk in the front door, you're greeted by the receptionist, Linda.
 [[Cast Suggestion]]
 
 
-:: Hangout {"position":"1200,1700","size":"100,100"}
+:: Hangout {"position":"1400,1500","size":"100,100"}
 The two of you proceed to spend the day together. You make breakfast together, then go out to the park. While walking around, you see some crazy guy in the park. 
 
-"hark! ye of little faith shall soon be punished! This 'God' of yours has been slain, like his son before him! Now, the Fey reign supreme, and shall soon exert their will upon us! Pray now, before the end times!"
+"Hark! ye of little faith shall soon be punished! This 'God' of yours has been slain, like his son before him! Now, the Fey reign supreme, and shall soon exert their will upon us! Pray now, before the end times!"
 
 ''"... Damn straight."''
+(if:(history:)contains "Fey Inquisition")["Huh, there are more of you? I kinda thought you were one of the only Fey worshippers," Penelope asks.
+
+"Well, of course there are. They are the true gods of this world, destined to usurp all the false gods."
+]
+(else:)["Huh, what's that guy's deal?", Penelope asks.
+
+"Isn't it obvious? He's evangelizing for the true Gods!"
+]
+"Right, right. Of course. Let's... let's just go, okay?"
+
+[[Next|Hangout II]] 
+
+
+:: Hangout II {"position":"1600,1500","size":"100,100"}
+You proceed to get some lunch at a nearby deli. As you're eating, Penelope asks you, "You know, we've known each other for quite a while, but you're still pretty mysterious! What's your deal?"
+
+"Well, that depends. What do you want to know?"
+
+''"Whatever you do, DO NOT tell her about the whole 'borrowing my unlimited divine power' thing. That'll almost certainly give her the ick."''
+
+"//Don't worry, I wasn't planning on it. Also, what the HELL is 'the ick'? Some kind of perception curse? Should I research how to remove it?!//"
+
+''"Calm down, it's nothing supernatural. I'll... I'll explain later, okay?"''
+
+[[Next|Hangout III]]
+
+
+:: Hangout III {"position":"1600,1700","size":"100,100"}
+Penelope continues, "Well, for starters... how old are you?"
+
+"Oh! I'm 37, why?"
+
+Penelope's jaw hits the floor. "THIRTY SEVEN?! How the hell are you YOUNGER than me?! You look like you could pass for 200! ...No offense."
+
+"None taken. In fact, I'm glad my 'wizened old hermit' vibe has taken such strong root. So, how about you?"
+
+"Oh, I'm... 40."
+
+"You're 40?!"
+
+"Yeah, I know. A bit past my prime, huh?"
+
+"What?! No! You don't look a day over 25! What, are you an acolyte of Helah?"
+
+''"Bold move, invoking the most beautiful Archfey, and my most bitter enemy in my presence. Thin fucking ice, Glup."''
+
+[[Eh, she's probably not serious|Abeloth Ignore]]
+[[Apologize and promise great offerings when you get home (a box of tendies|Abeloth Placate]]
+
+
+:: Hangout IV {"position":"1200,1700","size":"100,100"}
+"No idea who that is, but I assume some beauty god, so thank you! I'm sure you can tell I'm... not exactly the MOST secure woman in the world. I've always had trouble attracting attention."
+
+"Really? You caught my eye the second we crossed paths!"
+
+"Not THAT kind of attention. Pretty much anyone can get ogled by someone. I meant... like this. Someone genuinely interested in ME, for who I am, not what I look like."
+
+"Well, they're all idiots. You're sweet, funny, and the biggest nerd I've seen outside a mirror. You're PERFECT."
+
+''"YES! It's happening!"''
+
+"P-perfect? What do you mean by that?"
+
+[[Close the deal|Ask her out]]
 
 
 :: I love your singing! {"position":"600,2300","size":"100,100"}
@@ -238,6 +339,8 @@ The time comes, and you go to the bar. You walk in to see, and hear, Penelope be
 
 
 :: Karaoke Challenge {"position":"600,2500","size":"100,100"}
+(if:(history:)contains "Yeah, it's kind of annoying...")[''"Whew, that was close. Well, looks like you managed to salvage it. Don't fumble again!"'']
+
 When your turn comes, you go up to the machine. You select:
 
 [[A classical piece]]
@@ -314,6 +417,10 @@ Penelope finishes her song, and goes to get a drink, only to nearly bump headfir
 
 [[I love your singing!]]
 [[Yeah, it's kind of annoying...]]
+
+
+:: Profaned Ending {"position":"2000,1500","size":"100,100"}
+(bg:red)[Profaned God Ending]
 
 
 :: Prologue {"position":"1000,700","size":"100,100"}
